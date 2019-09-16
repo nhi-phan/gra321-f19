@@ -1,0 +1,24 @@
+/*Styles for Project 5*/
+
+body {
+    font-family: myriad-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    letter-spacing: .5px; 
+    line-height: 2;
+    padding: 10%;
+}
+h1 {
+    color: blue;
+    font-weight: 600;
+    word-spacing: 10px;
+    font-size: 2.5em;
+}
+h2 {
+    font-style: italic;
+    font-size: 1.875em;
+}
+ul {
+    margin-bottom: 2rem;
+}
