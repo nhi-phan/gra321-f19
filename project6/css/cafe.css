@@ -51,7 +51,7 @@ body{
 
 .box5 {
     background-image: url(https://images.unsplash.com/photo-1551807501-1577675640e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-    padding: 150px 200px;
+    padding: 100px 100px;
     margin: 30px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -61,10 +61,10 @@ body{
 
 .box6 {
     background-image: url(https://images.unsplash.com/photo-1445093498563-4ba5fecf1bc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80);
-    padding: 150px 200px;
+    padding: 100px 100px;
     margin: 30px;
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     opacity: 0.9;
 }
@@ -74,7 +74,7 @@ h1 {
     font-family: din-condensed, sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 2px;
     color: white
 }
@@ -107,6 +107,7 @@ p {
     letter-spacing: .5px;
     text-align: left;
     color: white;
+    margin: 30px;
 }
 
 table {
