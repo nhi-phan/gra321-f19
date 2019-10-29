@@ -3,12 +3,12 @@ body{
 }
 .box {
     background-image:url(https://images.unsplash.com/photo-1510972527921-ce03766a1cf1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80);
+    background-size: 100%;
     padding: 150px 200px;
     margin: 30px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
     
 
@@ -17,21 +17,11 @@ body{
     font-family: cortado, sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: 80px;
+    font-size: 60px;
 }
-
-.name2 {
-    color: #ffffff;
-    font-family: din-condensed, sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 20px;
-    letter-spacing: 3px;
-}
-
 .box2 {
     background-image: url(https://images.unsplash.com/photo-1522012188892-24beb302783d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80);
-    padding: 150px 200px;
+    padding: 150px 100px;
     margin: 30px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -41,7 +31,7 @@ body{
 
 .box3 {
     background-image: url(https://images.unsplash.com/photo-1524424108398-708360971de3?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80);
-    padding: 150px 200px;
+    padding: 150px 100px;
     margin: 30px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -51,7 +41,7 @@ body{
 
 .box4 {
     background-image: url(https://images.unsplash.com/photo-1570470752130-37f615676f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
-    padding: 150px 200px;
+    padding: 150px 100px;
     margin: 30px;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -80,7 +70,7 @@ body{
 }
 
 h1 {
-    margin: 30px;
+    margin: 0px;
     font-family: din-condensed, sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -113,7 +103,7 @@ p {
     font-family: din-condensed, sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: .5px;
     text-align: left;
     color: white;
@@ -128,5 +118,8 @@ table {
     text-align: left;
     color: #ffffff;
     background-color: black;
-    padding: 60px 60px;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
