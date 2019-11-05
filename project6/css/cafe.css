@@ -1,11 +1,14 @@
+* {
+    box-sizing: border-box;
+}
 body{
     background-color: #303e44;
 }
 .box {
     background-image:url(https://images.unsplash.com/photo-1510972527921-ce03766a1cf1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80);
     background-size: 100%;
-    padding: 150px 200px;
-    margin: 30px;
+    padding: 150px 0px;
+    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,8 +24,8 @@ body{
 }
 .box2 {
     background-image: url(https://images.unsplash.com/photo-1522012188892-24beb302783d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80);
-    padding: 150px 100px;
-    margin: 30px;
+    padding: 50px 10px;
+    margin: 50px 10px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -31,9 +34,9 @@ body{
 
 .box3 {
     background-image: url(https://images.unsplash.com/photo-1524424108398-708360971de3?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80);
-    padding: 150px 100px;
-    margin: 30px;
-    background-size: 100%;
+    padding: 50px 10px;
+    margin: 50px 10px;
+    background-size: 120%;
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.9;
@@ -41,9 +44,9 @@ body{
 
 .box4 {
     background-image: url(https://images.unsplash.com/photo-1570470752130-37f615676f91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
-    padding: 150px 100px;
-    margin: 30px;
-    background-size: 100%;
+    padding: 50px 10px;
+    margin: 50px 10px;
+    background-size: 120%;
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.9;
@@ -51,9 +54,9 @@ body{
 
 .box5 {
     background-image: url(https://images.unsplash.com/photo-1551807501-1577675640e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
-    padding: 100px 100px;
-    margin: 30px;
-    background-size: 100%;
+    padding: 50px 10px;
+    margin: 50px 10px;
+    background-size: 140%;
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.9;
@@ -61,9 +64,9 @@ body{
 
 .box6 {
     background-image: url(https://images.unsplash.com/photo-1445093498563-4ba5fecf1bc7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80);
-    padding: 100px 100px;
-    margin: 30px;
-    background-size: 100%;
+    padding: 50px 10px;
+    margin: 50px 10px;
+    background-size: 120%;
     background-repeat: repeat;
     background-position: center;
     opacity: 0.9;
@@ -71,12 +74,13 @@ body{
 
 h1 {
     margin: 0px;
+    padding: 50px 0px 0px;
     font-family: din-condensed, sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 40px;
     letter-spacing: 2px;
-    color: white
+    color: white;
 }
 
 h2 {
@@ -122,4 +126,22 @@ table {
     padding: 30px 50px;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (min-width: 680px){
+    .box2 {
+        padding: 150px 100px;
+    }
+    .box3 {
+        padding: 100px 100px;
+    }
+    .box4 {
+        padding: 150px 100px;
+    }
+    .box5 {
+        padding: 100px 100px;
+    }
+    .box6 {
+        padding: 100px 100px;
+    }
 }
